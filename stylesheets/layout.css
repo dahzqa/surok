@@ -1,3 +1,446 @@
 * {
   box-sizing: border-box;
 }
+.firstBlock{
+    width: 100%;
+    aspect-ratio: 1470 / 956;
+    background-image: url(../images/test1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.cloudDialog{
+    position: absolute;
+    width: 23vw;
+    height: 19vw;
+    background-image: url(../images/dialog1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 13vw;
+    left: 31vw;
+    animation: shake 6s ease-in-out infinite;
+    display: inline-block;
+    z-index: 2;
+}
+
+.cloudDialog.dialog2 {
+    background-image: url(../images/dialog2.svg);
+}
+
+.cloudColor{
+    position: absolute;
+    width: 28vw;
+    height: 19vw;
+    background-image: url(../images/cloudColor.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20vw;
+    left: 3vw;
+}
+.cloudColor.hover {
+    background-image: url(../images/CloudColor1.svg);
+}
+.cloudColor1{
+    position: absolute;
+    width: 28vw;
+    height: 19vw;
+    background-image: url(../images/CloudColor2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0vw;
+    left: 14vw;
+    z-index: 1;
+}
+.cloudColor1.hover {
+    background-image: url(../images/CloudColor3.svg);
+}
+
+.cloudColor2{
+    position: absolute;
+    width: 36vw;
+    height: 15vw;
+    background-image: url(../images/CloudColor4.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -2vw;
+    left: 55vw;
+    z-index: 1;
+}
+.cloudColor2.hover {
+    background-image: url(../images/CloudColor5.svg);
+}
+
+.cloudColor3{
+    position: absolute;
+    width: 22vw;
+    height: 18vw;
+    background-image: url(../images/CloudColor6.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 23vw;
+    left: 80vw;
+    z-index: 1;
+}
+.cloudColor3.hover {
+    background-image: url(../images/CloudColor7.svg);
+}
+
+.surochek{
+    position: absolute;
+    width: 19vw;
+    height: 32vw;
+    background-image: url(../images/surochek.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 29vw;
+    left: 14vw;
+    cursor: pointer;
+}
+.surochek.changed {
+    background-image: url(../images/zloiSurochek1.svg);
+}
+.surochek.changed1 {
+    background-image: url(../images/zloiSurochek2.svg);
+}
+.koresok1{
+    position: absolute;
+    width: 8vw;
+    height: 11vw;
+    background-image: url(../images/koresok1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 45vw;
+    left: 35vw;
+    z-index: 26;
+}
+.flower {
+    position: absolute;
+    width: 8vw;
+    height: 11vw;
+    background-image: url(../images/flower1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 45vw;
+    left: 35vw;
+    z-index: 26;
+    animation: shakeFlower 6s ease-in-out infinite;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.flower2{
+    position: absolute;
+    width: 7vw;
+    height: 21vw;
+    background-image: url(../images/flower2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 36vw;
+    left: 6vw;
+    z-index: 26;
+}
+.flowerDialog {
+    position: absolute;
+    width: 10vw;
+    height: 8vw;
+    background-image: url(../images/flowerDialog.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 38vw;
+    left: 43vw;
+    z-index: 26;
+    animation: shake 6s ease-in-out infinite;
+    display: none;
+}
+.flowerDialog.show {
+    display: block;
+}
+
+.secondBlock{
+    width: 100%;
+    aspect-ratio: 1470 / 956;
+    background-image: url(../images/test2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.plate{
+    position: absolute;
+    width: 19vw;
+    height: 12vw;
+    background-image: url(../images/plate.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 17vw;
+    left: 71vw;
+    cursor: pointer;
+}
+.plate.hover {
+    background-image: url(../images/plate1.svg);
+}
+
+.firstLeaf {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: grab;
+}
+.firstLeaf:active {
+    cursor: grabbing;
+}
+
+.leaf1 {
+    width: 26vw;
+    height: 20vw;
+    background-image: url(../images/firstLeaf.svg);
+    top: 32vw;
+    left: 71vw;
+}
+
+.leaf2 {
+    width: 36vw;
+    height: 34vw;
+    background-image: url(../images/secondLeaf.svg);
+    top: 20vw;
+    left: 52vw;
+}
+
+.leaf3 {
+    width: 29svw;
+    height: 23vw;
+    background-image: url(../images/thirdLeaf.svg);
+    top: 12vw;
+    left: 72vw;
+}
+
+.leaf4 {
+    width: 32svw;
+    height: 30vw;
+    background-image: url(../images/fourthLeaf.svg);
+    top: 6vw;
+    left: 56vw;
+}
+
+.dialogSurochek2{
+    position: absolute;
+    width: 23vw;
+    height: 19vw;
+    background-image: url(../images/dialog3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 13vw;
+    left: 36vw;
+    animation: shake 6s ease-in-out infinite;
+    display: inline-block;
+}
+.dialogSurochek2.dialog3 {
+    background-image: url(../images/dialog4.svg);
+}
+
+.surochek2{
+    position: absolute;
+    width: 37vw;
+    height: 39vw;
+    background-image: url(../images/surochek2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 19vw;
+    left: 9vw;
+    cursor: pointer;
+}
+
+
+.thirdBlock{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1470 / 956;
+    background-image: url(../images/test3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.password-input {
+    position: absolute;
+    width: 11%;
+    height: 17%;
+    border: none;
+    background: transparent;
+    color: #a36bc8;
+    font-size: 2vw;
+    text-align: center;
+    outline: none;
+}
+
+#digit1 {
+    top: 15vw;
+    left: 8vw;
+}
+
+#digit2 {
+    top: 23vw;
+    left: 33vw;
+}
+
+#digit3 {
+    top: 25vw;
+    left: 53vw;
+}
+
+#digit4 {
+    top: 19vw;
+    left: 78vw;
+}
+
+.password-input:focus {
+    background: rgba(51, 23, 87, 0.049);
+}
+
+
+
+.fourthBlock {
+    width: 100%;
+    aspect-ratio: 1470 / 956;
+    background-image: url(../images/test4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+}
+
+#drawingCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.colorPicker {
+    position: absolute;
+    bottom: 4vw;
+    left: 36vw;
+    display: flex;
+    gap: 1.5vw;
+    z-index: 10;
+}
+
+.colorSquare {
+    width: 6vw;
+    height: 6vw;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.colorSquare:hover {
+    transform: scale(1.1);
+}
+
+.colorSquare.active {
+    border: 3px solid #fff;
+}
+
+.color1 {
+    background-color: #FFFFFF;
+}
+
+.color2 {
+    background-color: #FF0000;
+}
+.berry{
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: grab;
+    width: 7vw;
+    height: 6vw;
+    background-image: url(../images/berry.svg);
+    top: 55vw;
+    left: 53vw;
+    z-index: 100;
+}
+.berry:active {
+    cursor: grabbing;
+}
+
+.fifthBlock{
+    width: 100%;
+    aspect-ratio: 2940 / 1352;
+    background-image: url(../images/test5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.foooter {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 12vw;
+    height: 7vw;
+    background-image: url(../images/fooooter.svg);
+    top: 28vw;
+    left: 33vw;
+    z-index: 100;
+}
+.surochekLast{
+    position: absolute;
+    width: 19vw;
+    height: 32vw;
+    background-image: url(../images/surochek.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 9vw;
+    left: 52vw;
+}
+.lastDialogSurochek{
+    position: absolute;
+    width: 23vw;
+    height: 19vw;
+    background-image: url(../images/lastDialogSurochek.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 4vw;
+    left: 28vw;
+    animation: shake 6s ease-in-out infinite;
+    display: inline-block;
+    z-index: 2;
+}
+.footerLeaf {
+    position: absolute;
+    width: 63vw;
+    height: 44vw;
+    background-image: url(../images/footerLeaf.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0vw;
+    left: 18vw;
+    animation: shake 6s ease-in-out infinite;
+    display: inline-block;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+.footerLeaf.visible {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.closeCorner {
+    position: absolute;
+    top: 10vw;
+    right: 0;
+    width: 10vw;
+    height: 10vw;
+    cursor: pointer;
+}

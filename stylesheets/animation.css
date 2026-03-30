@@ -1,0 +1,32 @@
+@keyframes shake {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  20% {
+    transform: translate(3px, 3px);
+  }
+  40% {
+    transform: translate(3px, 0px);
+  }
+  60% {
+    transform: translate(0px, 0px);
+  }
+  80% {
+    transform: translate(0px, 3px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes shakeFlower {
+  0% {
+    transform: translate(0px, 0px)rotate(0deg);
+  }
+  50% {
+    transform: translate(0px, 10px)rotate(15deg);
+  }
+  100% {
+    transform: translate(0px, 0px)rotate(0deg);
+  }
+}
