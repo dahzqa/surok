@@ -1,5 +1,8 @@
-* {
+*{
   box-sizing: border-box;
+}
+.firMobile{
+    width: 100%;
 }
 .firstBlock{
     width: 100%;
@@ -25,7 +28,7 @@
     z-index: 2;
 }
 
-.cloudDialog.dialog2 {
+.cloudDialog.dialog2{
     background-image: url(../images/dialog2.svg);
 }
 
@@ -39,7 +42,7 @@
     top: 20vw;
     left: 3vw;
 }
-.cloudColor.hover {
+.cloudColor.hover{
     background-image: url(../images/CloudColor1.svg);
 }
 .cloudColor1{
@@ -53,7 +56,7 @@
     left: 14vw;
     z-index: 1;
 }
-.cloudColor1.hover {
+.cloudColor1.hover{
     background-image: url(../images/CloudColor3.svg);
 }
 
@@ -68,7 +71,7 @@
     left: 55vw;
     z-index: 1;
 }
-.cloudColor2.hover {
+.cloudColor2.hover{
     background-image: url(../images/CloudColor5.svg);
 }
 
@@ -83,7 +86,7 @@
     left: 80vw;
     z-index: 1;
 }
-.cloudColor3.hover {
+.cloudColor3.hover{
     background-image: url(../images/CloudColor7.svg);
 }
 
@@ -98,10 +101,10 @@
     left: 14vw;
     cursor: pointer;
 }
-.surochek.changed {
+.surochek.changed{
     background-image: url(../images/zloiSurochek1.svg);
 }
-.surochek.changed1 {
+.surochek.changed1{
     background-image: url(../images/zloiSurochek2.svg);
 }
 .koresok1{
@@ -115,7 +118,7 @@
     left: 35vw;
     z-index: 26;
 }
-.flower {
+.flower{
     position: absolute;
     width: 8vw;
     height: 11vw;
@@ -142,7 +145,7 @@
     left: 6vw;
     z-index: 26;
 }
-.flowerDialog {
+.flowerDialog{
     position: absolute;
     width: 10vw;
     height: 8vw;
@@ -155,7 +158,7 @@
     animation: shake 6s ease-in-out infinite;
     display: none;
 }
-.flowerDialog.show {
+.flowerDialog.show{
     display: block;
 }
 
@@ -180,21 +183,21 @@
     left: 71vw;
     cursor: pointer;
 }
-.plate.hover {
+.plate.hover{
     background-image: url(../images/plate1.svg);
 }
 
-.firstLeaf {
+.firstLeaf{
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
     cursor: grab;
 }
-.firstLeaf:active {
+.firstLeaf:active{
     cursor: grabbing;
 }
 
-.leaf1 {
+.leaf1{
     width: 26vw;
     height: 20vw;
     background-image: url(../images/firstLeaf.svg);
@@ -202,7 +205,7 @@
     left: 71vw;
 }
 
-.leaf2 {
+.leaf2{
     width: 36vw;
     height: 34vw;
     background-image: url(../images/secondLeaf.svg);
@@ -210,7 +213,7 @@
     left: 52vw;
 }
 
-.leaf3 {
+.leaf3{
     width: 29svw;
     height: 23vw;
     background-image: url(../images/thirdLeaf.svg);
@@ -218,7 +221,7 @@
     left: 72vw;
 }
 
-.leaf4 {
+.leaf4{
     width: 32svw;
     height: 30vw;
     background-image: url(../images/fourthLeaf.svg);
@@ -238,7 +241,7 @@
     animation: shake 6s ease-in-out infinite;
     display: inline-block;
 }
-.dialogSurochek2.dialog3 {
+.dialogSurochek2.dialog3{
     background-image: url(../images/dialog4.svg);
 }
 
@@ -265,7 +268,7 @@
     background-position: center;
     position: relative;
 }
-.password-input {
+.password-input{
     position: absolute;
     width: 11%;
     height: 17%;
@@ -277,33 +280,33 @@
     outline: none;
 }
 
-#digit1 {
+#digit1{
     top: 15vw;
     left: 8vw;
 }
 
-#digit2 {
+#digit2{
     top: 23vw;
     left: 33vw;
 }
 
-#digit3 {
+#digit3{
     top: 25vw;
     left: 53vw;
 }
 
-#digit4 {
+#digit4{
     top: 19vw;
     left: 78vw;
 }
 
-.password-input:focus {
+.password-input:focus{
     background: rgba(51, 23, 87, 0.049);
 }
 
 
 
-.fourthBlock {
+.fourthBlock{
     width: 100%;
     aspect-ratio: 1470 / 956;
     background-image: url(../images/test4.png);
@@ -315,7 +318,7 @@
     position: relative;
 }
 
-#drawingCanvas {
+#drawingCanvas{
     position: absolute;
     top: 0;
     left: 0;
@@ -323,7 +326,7 @@
     height: 100%;
 }
 
-.colorPicker {
+.colorPicker{
     position: absolute;
     bottom: 4vw;
     left: 36vw;
@@ -332,26 +335,26 @@
     z-index: 10;
 }
 
-.colorSquare {
+.colorSquare{
     width: 6vw;
     height: 6vw;
     border-radius: 45px;
     cursor: pointer;
 }
 
-.colorSquare:hover {
+.colorSquare:hover{
     transform: scale(1.1);
 }
 
-.colorSquare.active {
+.colorSquare.active{
     border: 3px solid #fff;
 }
 
-.color1 {
+.color1{
     background-color: #FFFFFF;
 }
 
-.color2 {
+.color2{
     background-color: #FF0000;
 }
 .berry{
@@ -366,7 +369,7 @@
     left: 53vw;
     z-index: 100;
 }
-.berry:active {
+.berry:active{
     cursor: grabbing;
 }
 
@@ -379,7 +382,7 @@
     background-position: center;
     position: relative;
 }
-.foooter {
+.foooter{
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
@@ -414,7 +417,7 @@
     display: inline-block;
     z-index: 2;
 }
-.footerLeaf {
+.footerLeaf{
     position: absolute;
     width: 63vw;
     height: 44vw;
@@ -431,12 +434,12 @@
     pointer-events: none;
     transition: opacity 0.5s ease, visibility 0.5s ease;
 }
-.footerLeaf.visible {
+.footerLeaf.visible{
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
-.closeCorner {
+.closeCorner{
     position: absolute;
     top: 10vw;
     right: 0;
